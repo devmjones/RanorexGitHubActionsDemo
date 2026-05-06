@@ -41,6 +41,7 @@ jobs:
       uses: microsoft/setup-msbuild@v2 # At the time of writing, v2 is the latest 
 
     - name: Clear NuGet Cache
+      shell: powershell
       run: dotnet nuget locals all --clear
  
     # This step is not required for all solutions 
