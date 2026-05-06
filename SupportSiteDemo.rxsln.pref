@@ -7,6 +7,6 @@
   <SerializedValue name="ModuleBrowserState">
     <ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" />
   </SerializedValue>
-  <ProjectBrowserState value="[Solution SupportSiteDemo[Solution Items[]ProjectSupportSiteDemo[OpenCloseActions[]SearchActions[SearchForArticle.rxrec[]]HomePageSuite.rxtst[]]]]&#xD;&#xA;Solution SupportSiteDemo\ProjectSupportSiteDemo&#xD;&#xA;Solution SupportSiteDemo" />
+  <ProjectBrowserState value="[Solution SupportSiteDemo[Solution Items[]ProjectSupportSiteDemo[OpenCloseActions[]SearchActions[SearchForArticle.rxrec[]]HomePageSuite.rxtst[]]]]&#xD;&#xA;Solution SupportSiteDemo\ProjectSupportSiteDemo\HomePageSuite.rxtst&#xD;&#xA;Solution SupportSiteDemo\ProjectSupportSiteDemo\OpenCloseActions" />
   <StartupProject value="{E343414C-7551-4ABF-9094-AFF225766F67}" />
 </Properties>

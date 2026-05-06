@@ -1,7 +1,11 @@
 ﻿<Properties>
-  <Array name="active" />
+  <Array name="active">
+    <Element value="HomePageSuite.rxtst" />
+  </Array>
   <Array name="bookmarks" />
-  <Array name="files" />
+  <Array name="files">
+    <Element value="HomePageSuite.rxtst" />
+  </Array>
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />
