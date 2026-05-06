@@ -18,7 +18,7 @@ jobs:
      
     # Configure environment variables 
     env: 
-      Solution_Name: SupportSiteDemo2.sln # Replace with your solution name 
+      Solution_Name: SupportSiteDemo.sln # Replace with your solution name 
       Test_Project_Path: SupportSiteDemo2\SupportSiteDemo2.csproj # Replace with the path to your test project 
        
     # Check out code from the repository 
