@@ -29,11 +29,11 @@ jobs:
         fetch-depth: 0 
   
     - name: Unblock files
-      shell: pwsh
+      shell: powershell
       run: Get-ChildItem -Recurse | Unblock-File    
       
     - name: Allow PowerShell scripts
-      shell: pwsh
+      shell: powershell
       run: |
         Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
         Get-ChildItem -Recurse | Unblock-File    
