@@ -1,5 +1,5 @@
 ﻿<configuration
-rxversion="12.0">
+rxversion="12.7">
 	<adapter.defaultsearchtimeout>
 		10000ms
 	</adapter.defaultsearchtimeout>
