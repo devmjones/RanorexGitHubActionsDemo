@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SupportSiteDemo2</name>
+    </assembly>
+    <members>
+        <member name="T:SupportSiteDemo2.OpenCloseActions.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:SupportSiteDemo2.OpenCloseActions.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the global::SupportSiteDemo2.SupportSiteDemo2Repository repository.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.OpenCloseActions.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.OpenCloseActions.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.OpenCloseActions.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SupportSiteDemo2.OpenCloseActions.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.OpenCloseActions.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SupportSiteDemo2.OpenCloseActions.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SupportSiteDemo2.OpenCloseActions.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:SupportSiteDemo2.OpenCloseActions.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the global::SupportSiteDemo2.SupportSiteDemo2Repository repository.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.OpenCloseActions.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.OpenCloseActions.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.OpenCloseActions.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SupportSiteDemo2.OpenCloseActions.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.OpenCloseActions.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SupportSiteDemo2.OpenCloseActions.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SupportSiteDemo2.PopArticlesActions.ClickOnPopularArticle">
+             <summary>
+            The ClickOnPopularArticle recording.
+             </summary>
+        </member>
+        <member name="F:SupportSiteDemo2.PopArticlesActions.ClickOnPopularArticle.repo">
+            <summary>
+            Holds an instance of the global::SupportSiteDemo2.SupportSiteDemo2Repository repository.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.PopArticlesActions.ClickOnPopularArticle.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.PopArticlesActions.ClickOnPopularArticle.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.PopArticlesActions.ClickOnPopularArticle.href">
+            <summary>
+            Gets or sets the value of variable href.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.PopArticlesActions.ClickOnPopularArticle.articleTitle">
+            <summary>
+            Gets or sets the value of variable articleTitle.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.PopArticlesActions.ClickOnPopularArticle.PopArticleTitle">
+            <summary>
+            Gets or sets the value of variable PopArticleTitle.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.PopArticlesActions.ClickOnPopularArticle.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SupportSiteDemo2.PopArticlesActions.ClickOnPopularArticle.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.PopArticlesActions.ClickOnPopularArticle.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SupportSiteDemo2.PopArticlesActions.ClickOnPopularArticle.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SupportSiteDemo2.SearchActions.ClickFirstResult">
+             <summary>
+            The ClickFirstResult recording.
+             </summary>
+        </member>
+        <member name="F:SupportSiteDemo2.SearchActions.ClickFirstResult.repo">
+            <summary>
+            Holds an instance of the global::SupportSiteDemo2.SupportSiteDemo2Repository repository.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.SearchActions.ClickFirstResult.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SearchActions.ClickFirstResult.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.SearchActions.ClickFirstResult.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SupportSiteDemo2.SearchActions.ClickFirstResult.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.SearchActions.ClickFirstResult.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SupportSiteDemo2.SearchActions.ClickFirstResult.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SupportSiteDemo2.SearchActions.SearchForArticle">
+             <summary>
+            The SearchForArticle recording.
+             </summary>
+        </member>
+        <member name="F:SupportSiteDemo2.SearchActions.SearchForArticle.repo">
+            <summary>
+            Holds an instance of the global::SupportSiteDemo2.SupportSiteDemo2Repository repository.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.SearchActions.SearchForArticle.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SearchActions.SearchForArticle.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SearchActions.SearchForArticle.searchTerm">
+            <summary>
+            Gets or sets the value of variable searchTerm.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.SearchActions.SearchForArticle.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SupportSiteDemo2.SearchActions.SearchForArticle.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.SearchActions.SearchForArticle.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SupportSiteDemo2.SearchActions.SearchForArticle.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SupportSiteDemo2.SearchActions.ValidateOnArticle">
+             <summary>
+            The ValidateOnArticle recording.
+             </summary>
+        </member>
+        <member name="F:SupportSiteDemo2.SearchActions.ValidateOnArticle.repo">
+            <summary>
+            Holds an instance of the global::SupportSiteDemo2.SupportSiteDemo2Repository repository.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.SearchActions.ValidateOnArticle.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SearchActions.ValidateOnArticle.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SearchActions.ValidateOnArticle.articleTitle">
+            <summary>
+            Gets or sets the value of variable articleTitle.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.SearchActions.ValidateOnArticle.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SupportSiteDemo2.SearchActions.ValidateOnArticle.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.SearchActions.ValidateOnArticle.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SupportSiteDemo2.SearchActions.ValidateOnArticle.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:SupportSiteDemo2.SupportSiteDemo2Repository">
+            <summary>
+            The class representing the SupportSiteDemo2Repository element repository.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the SupportSiteDemo2Repository element repository.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.SupportSiteDemo2Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2Repository.firstText">
+            <summary>
+            Gets or sets the value of variable firstText.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2Repository.href">
+            <summary>
+            Gets or sets the value of variable href.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2Repository.PopArticleTitle">
+            <summary>
+            Gets or sets the value of variable PopArticleTitle.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2Repository.LearnMoreItemH4">
+            <summary>
+            Gets or sets the value of variable LearnMoreItemH4.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2Repository.LeftNavButtonItem">
+            <summary>
+            Gets or sets the value of variable LeftNavButtonItem.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2Repository.LeftNavSubArticleLink">
+            <summary>
+            Gets or sets the value of variable LeftNavSubArticleLink.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2Repository.articleTitle">
+            <summary>
+            Gets or sets the value of variable articleTitle.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:SupportSiteDemo2.SupportSiteDemo2RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:SupportSiteDemo2.SupportSiteDemo2RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SupportSiteDemo2.SupportSiteDemo2RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2RepositoryFolders.ApplicationUnderTestAppFolder.Query">
+            <summary>
+            The Query item.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2RepositoryFolders.ApplicationUnderTestAppFolder.QueryInfo">
+            <summary>
+            The Query item info.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2RepositoryFolders.ApplicationUnderTestAppFolder.FirstText">
+            <summary>
+            The FirstText item.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2RepositoryFolders.ApplicationUnderTestAppFolder.FirstTextInfo">
+            <summary>
+            The FirstText item info.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2RepositoryFolders.ApplicationUnderTestAppFolder.PopArticleATag">
+            <summary>
+            The PopArticleATag item.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2RepositoryFolders.ApplicationUnderTestAppFolder.PopArticleATagInfo">
+            <summary>
+            The PopArticleATag item info.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2RepositoryFolders.ApplicationUnderTestAppFolder.ArticleTitle">
+            <summary>
+            The ArticleTitle item.
+            </summary>
+        </member>
+        <member name="P:SupportSiteDemo2.SupportSiteDemo2RepositoryFolders.ApplicationUnderTestAppFolder.ArticleTitleInfo">
+            <summary>
+            The ArticleTitle item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

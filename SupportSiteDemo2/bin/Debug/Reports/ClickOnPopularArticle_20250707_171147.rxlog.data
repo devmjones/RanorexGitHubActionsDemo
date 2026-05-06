@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="33.26s"
+		durationms="33263"
+		type="root"
+		rid="83a18f2b75d912"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="senni"
+		rxversion="12.3.0.0"
+		host="SEMBI"
+		osversion="Windows 11 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="6000x2221"
+		timestamp="7/7/2025 5:11:50 PM"
+		timestampiso="2025-07-07T16:11:50"
+		endtime="7/7/2025 5:12:23 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ClickOnPopularArticle">
+		<detail>
+			ClickOnPopularArticle
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.397"
+			timeRelativeToTestModuleStartTime="00:04.397"
+			timeWallClock="17:11:54"
+			time="00:04.397"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>href, PopArticleTitle
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.423"
+			timeRelativeToTestModuleStartTime="00:04.423"
+			timeWallClock="17:11:54"
+			time="00:04.423"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.PopArticleATag' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='support.ranorex.com']//ul[@class='article-list promoted-articles']/li[@class='promoted-articles-item']/a[@href='    ']"
+				itempath=".//ul[@class='article-list promoted-articles']/li[@class='promoted-articles-item']/a[@href=$href]"
+				fullname="SupportSiteDemo2Repository.ApplicationUnderTest.PopArticleATag"
+				id="576b9a6214bc45f6bb0442fb0380202c"
+				timeout="60000"
+				codefile="C:\Users\senni\Documents\Ranorex\RanorexStudio Projects\SupportSiteDemo2\SupportSiteDemo2\PopArticlesActions\ClickOnPopularArticle.cs"
+				codeline="103"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.261"
+			timeRelativeToTestModuleStartTime="00:33.261"
+			timeWallClock="17:12:23"
+			time="00:33.261"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

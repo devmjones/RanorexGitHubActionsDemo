@@ -1,0 +1,19 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="HomePageSuite.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="HomePageSuite.rxtst" />
+    <Element value="SideNavActions\ClickLeftNavSubLink.rxrec" />
+    <Element value="SideNavActions\ClickSideNavTopic.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="SupportSiteDemo2.Recording1.MergedUserCodeMethod(RepoItemInfo atagInfo, RepoItemInfo h1tagInfo)" />
+    </Array>
+  </Properties>
+</Properties>

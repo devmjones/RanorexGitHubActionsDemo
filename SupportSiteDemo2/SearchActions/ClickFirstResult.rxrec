@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="0a4238a2-8fe0-43ac-af68-51b689f153eb"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickFirstResult"
+	namespace="SupportSiteDemo2.SearchActions">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="3dfe908c-c80e-4529-867d-5ae1ef4b758f"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9f0e450e-805f-47be-8ee0-5716e04bdb57"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='support.ranorex.com']//section[#'main-content']/ul//div[@innertext&gt;$firstText]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="1f62fb24-bb3c-4882-8e19-59f8ac84bc33"
+	name="SupportSiteDemo2Repository"
+	relativepath="..\SupportSiteDemo2Repository.rxrep">
+		<codegen
+		classname="SupportSiteDemo2Repository"
+		namespace="SupportSiteDemo2">
+		</codegen>
+		<rootfolder
+		id="1b4da351-7c31-42b2-86a4-813cef83008f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickFirstResult.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

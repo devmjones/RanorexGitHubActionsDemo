@@ -1,0 +1,129 @@
+﻿<repository
+id="1f62fb24-bb3c-4882-8e19-59f8ac84bc33"
+name="SupportSiteDemo2Repository">
+	<codegen
+	classname="SupportSiteDemo2Repository"
+	namespace="SupportSiteDemo2">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="1b4da351-7c31-42b2-86a4-813cef83008f"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="953d5c82-4830-487e-999f-8f8829627372"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		refimgid="e9624629-4d34-4199-9147-212c1df16101"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e8928d0f-e1fa-456c-8228-64bec3ce322d"
+			name="SearchInput"
+			refimgid="0ab5618a-7f32-4339-b589-1c33a2a4f162"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='support.ranorex.com']//div[@class='search-bar-wrapper']//input[@id='query']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="h3tag"
+			id="9f0e450e-805f-47be-8ee0-5716e04bdb57"
+			name="FirstResultTitle"
+			refimgid="0d77dcec-936c-4f42-ac74-2be5fe3efb41"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='support.ranorex.com']//ul/li[1]/a/h3
+			</item>
+			<item
+			addcaps="unknown,webelement,h1tag"
+			capname="h1tag"
+			id="f7b42dfb-9bc0-4f06-99d7-9e44291ec341"
+			name="ArticleTitle"
+			refimgid="a1d82fb3-283e-4eba-8db5-8e073cbe8413"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='support.ranorex.com']//h1[@title=$articleTitle]
+			</item>
+			<item
+			capname="atag"
+			id="f3769a43-ea26-4645-87f1-9b4e04c00f67"
+			name="HomeLogo"
+			robustPath="/dom[@domain='support.ranorex.com']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='support.ranorex.com']//div[@class='logo']/a[@title='Home']
+			</item>
+			<item
+			capname="h1tag"
+			id="617822b8-335c-488f-8592-fa03f66cd4ce"
+			name="HomePageTitle"
+			robustPath="/dom[@domain='support.ranorex.com']/element"
+			searchtimeout="30000ms">
+				/dom[@domain='support.ranorex.com']//section[@class='hero-section']/h1
+			</item>
+			<basepath>
+				/dom[@domain='support.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="bd0189c8-39ad-4555-885a-f92378fb3469"
+		name="firstText">
+			follows: Java (for  Grid):
+		</var>
+		<var
+		id="af552e86-1c5d-4071-88aa-a6ebf514a417"
+		name="href">
+			&#8202;&#8202;&#8202;&#8202;
+		</var>
+		<var
+		id="8040858a-3ec6-43e0-b344-b7a199ead36a"
+		name="PopArticleTitle">
+			article-title
+		</var>
+		<var
+		id="4b676893-8b65-46fd-98af-e1c04c98feca"
+		name="LearnMoreItemH4">
+			Getting Started
+		</var>
+		<var
+		id="dde207fe-ab5e-4878-b9f8-1663abebc5c0"
+		name="LeftNavButtonItem">
+			Ranorex Studio
+		</var>
+		<var
+		id="85f57120-93c3-4259-907e-e49c216773a0"
+		name="LeftNavSubArticleLink">
+			Ranorex Studio start page
+		</var>
+		<var
+		id="172f1c1c-4003-430b-9d01-d9cd06797490"
+		name="articleTitle">
+			Selenium WebDriver integration
+		</var>
+	</variables>
+</repository>

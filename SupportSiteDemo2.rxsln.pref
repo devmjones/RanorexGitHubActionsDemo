@@ -1,0 +1,21 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <string>{E343414C-7551-4ABF-9094-AFF225766F67}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>0b79bb34-1103-4cfc-98eb-7e524f3d3088</string>
+      <string>75c47cac-823a-4afb-8474-c5ccf1e5eae3</string>
+      <string>4f34f608-aa7c-4e09-9b77-87caf302f027</string>
+      <string>ba402ad2-c856-439a-bf10-948f3e06ac2d</string>
+      <string>944bc4ed-8412-4ad5-b5dc-eb65400811f8</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution SupportSiteDemo2[SupportSiteDemo2[]]]&#xD;&#xA;Solution SupportSiteDemo2\SupportSiteDemo2\HomePageSuite.rxtst&#xD;&#xA;Solution SupportSiteDemo2" />
+  <StartupProject value="{E343414C-7551-4ABF-9094-AFF225766F67}" />
+</Properties>
