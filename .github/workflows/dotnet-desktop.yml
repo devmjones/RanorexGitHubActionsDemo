@@ -40,6 +40,11 @@ jobs:
     - name: Setup MSBuild.exe 
       uses: microsoft/setup-msbuild@v2 # At the time of writing, v2 is the latest 
 
+    - name: Clean Solution
+      run: msbuild $env:Solution_Name /t:Clean /p:Configuration=$env:Configuration
+      env:
+        Configuration: ${{ matrix.configuration }}
+        
     - name: Clear NuGet Cache
       shell: powershell
       run: dotnet nuget locals all --clear
