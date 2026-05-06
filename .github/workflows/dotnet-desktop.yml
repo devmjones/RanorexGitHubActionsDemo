@@ -34,8 +34,7 @@ jobs:
     - name: Allow PowerShell scripts
       shell: powershell
       run: |
-        Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
-        Get-ChildItem -Recurse | Unblock-File    
+        Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass   
  
     # Add MSBuild to the PATH: https://github.com/microsoft/setup-msbuild 
     - name: Setup MSBuild.exe 
@@ -53,14 +52,14 @@ jobs:
       run: msbuild $env:Solution_Name 
 
     - name: Show runner execution context
-     shell: powershell
-     run: |
-      echo "PWD:"
-      pwd
-      echo "FILES:"
-      dir
-      echo "BIN:"
-      dir SupportSiteDemo2\bin\Debug  
+      shell: powershell
+      run: |
+       echo "PWD:"
+       pwd
+       echo "FILES:"
+       dir
+       echo "BIN:"
+       dir SupportSiteDemo2\bin\Debug  
  
     # Run the solution, replacing RxDemoApp with the name of your solution 
     - name: Run the Test Suite 
