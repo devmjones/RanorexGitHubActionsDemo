@@ -80,4 +80,5 @@ jobs:
    
     # Run the solution, replacing RxDemoApp with the name of your solution 
     - name: Run the Test Suite 
-      run: SupportSiteDemo2/bin/Debug/SupportSiteDemo2.exe 
+      shell: powershell
+      run: "SupportSiteDemo2\\bin\\Debug\\SupportSiteDemo2.exe" 
