@@ -9,7 +9,6 @@ on: # This setup will run the workflow on Push and Pull requests to the main cod
 jobs: 
  
   build: 
- 
     strategy: 
       matrix: 
         configuration: [Debug] 
