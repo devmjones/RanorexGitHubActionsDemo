@@ -78,6 +78,10 @@ jobs:
       shell: powershell
       run : "Get-ChildItem -Recurse -Include *.config,*.csproj,*.rxsettings,*.xml,*.props,*.targets | Select-String -Pattern '12.4.2' | Select-Object Path, LineNumber, Line"
    
+    - name: Check bin contents
+      shell: powershell
+      run: "if (Test-Path SupportSiteDemo2\\bin\\Debug) { Get-ChildItem -Recurse SupportSiteDemo2\\bin\\Debug } else { echo 'bin\\Debug does not exist' }"
+    
     # Run the solution, replacing RxDemoApp with the name of your solution 
     - name: Run the Test Suite 
       shell: powershell
