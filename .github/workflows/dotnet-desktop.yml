@@ -27,6 +27,16 @@ jobs:
       uses: actions/checkout@v4 # At the time of writing, v4 is the latest 
       with: 
         fetch-depth: 0 
+  
+    - name: Unblock files
+      shell: pwsh
+      run: Get-ChildItem -Recurse | Unblock-File    
+      
+    - name: Allow PowerShell scripts
+      shell: pwsh
+      run: |
+        Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+        Get-ChildItem -Recurse | Unblock-File    
  
     # Add MSBuild to the PATH: https://github.com/microsoft/setup-msbuild 
     - name: Setup MSBuild.exe 
