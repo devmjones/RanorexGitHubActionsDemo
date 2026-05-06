@@ -1,11 +1,7 @@
 ﻿<Properties>
-  <Array name="active">
-    <Element value="APITest.rxrec" />
-  </Array>
+  <Array name="active" />
   <Array name="bookmarks" />
-  <Array name="files">
-    <Element value="APITest.rxrec" />
-  </Array>
+  <Array name="files" />
   <Properties name="projectSavedData">
     <Properties name="customTool">
       <runOnBuild value="False" />

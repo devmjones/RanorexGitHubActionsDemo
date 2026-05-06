@@ -12,7 +12,7 @@ namespace __RxMain
     /// correctly. This file is auto-generated during project build. This class will invoke the
     /// original 'Main' method implementation as needed.
     /// </summary>
-    [GeneratedCode("Ranorex", "12.4")]
+    [GeneratedCode("Ranorex", "12.7")]
     public class __RxProgram
     {
         /// <summary>
