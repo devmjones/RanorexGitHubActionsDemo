@@ -26,11 +26,13 @@ jobs:
       uses: actions/checkout@v4 # At the time of writing, v4 is the latest 
       with: 
         fetch-depth: 0 
-  
+
+    # Removes files blocked by Windows after downloading from the internet
     - name: Unblock files
       shell: powershell
       run: Get-ChildItem -Recurse | Unblock-File    
-      
+ 
+    # Allows PowerShell scripts to run for this job without changing machine-wide policy.    
     - name: Allow PowerShell scripts
       shell: powershell
       run: |
@@ -40,18 +42,11 @@ jobs:
     - name: Setup MSBuild.exe 
       uses: microsoft/setup-msbuild@v2 # At the time of writing, v2 is the latest 
 
+    # Clears previous build outputs to ensure a clean build from scratch.
     - name: Clean Solution
       run: msbuild $env:Solution_Name /t:Clean /p:Configuration=$env:Configuration
       env:
         Configuration: ${{ matrix.configuration }}
-
-    - name: Delete stale build artifacts
-      shell: powershell
-      run: "if (Test-Path SupportSiteDemo2\\obj) { Remove-Item -Recurse -Force SupportSiteDemo2\\obj }; if (Test-Path SupportSiteDemo2\\bin) { Remove-Item -Recurse -Force SupportSiteDemo2\\bin }"
-        
-    - name: Clear NuGet Cache
-      shell: powershell
-      run: dotnet nuget locals all --clear
  
     # This step is not required for all solutions 
     # Restore the application to populate the obj folder with RuntimeIdentifiers 
@@ -63,24 +58,6 @@ jobs:
     # Build the solution 
     - name: Build solution 
       run: msbuild $env:Solution_Name 
-
-    - name: Show runner execution context
-      shell: powershell
-      run: |
-       echo "PWD:"
-       pwd
-       echo "FILES:"
-       dir
-       echo "BIN:"
-       dir SupportSiteDemo2\bin\Debug  
-       
-    - name: Search for 12.4.2 references
-      shell: powershell
-      run : "Get-ChildItem -Recurse -Include *.config,*.csproj,*.rxsettings,*.xml,*.props,*.targets | Select-String -Pattern '12.4.2' | Select-Object Path, LineNumber, Line"
-   
-    - name: Check bin contents
-      shell: powershell
-      run: "if (Test-Path SupportSiteDemo2\\bin\\Debug) { Get-ChildItem -Recurse SupportSiteDemo2\\bin\\Debug } else { echo 'bin\\Debug does not exist' }"
     
     # Run the solution, replacing RxDemoApp with the name of your solution 
     - name: Run the Test Suite 
